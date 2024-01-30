@@ -1,0 +1,46 @@
+/* body{
+    background-color: black; */
+
+.SearchBar {
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: auto;
+  }
+  
+  /* Optional: Center the search bar on the page */
+  .SearchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.inputs{
+    margin: 40px;
+}
+img{
+    width: 100%;
+    cursor: pointer;
+}
+body {
+    overflow-x: hidden;
+  }
+  
+
+h5
+{
+    color: #ffffff;
+}
+@media (max-width:768px){
+
+.seacrh-col {
+    width: 100%; /* Full width on smaller screens */
+}
+.res img {
+    
+}
+.result{
+  column-count: 2;
+  overflow: hidden;
+}
+
+}

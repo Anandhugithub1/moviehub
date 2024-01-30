@@ -1,0 +1,99 @@
+
+
+
+
+
+.grid{
+  background-color: black;
+}
+.footer{
+  background-color: black;
+  height: 175px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.footer p{
+  height: 100px;
+  font-family:Roboto;
+  text-transform: capitalize;
+  text-decoration: none; /* Remove the default underline */
+  color: inherit; /* Inherit the text color from the parent */
+  position: relative; /* Create a stacking context for pseudo-elements */
+
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+
+}
+.footer ul{
+  margin-top: 10px;
+  list-style: none;
+  text-align: start;
+  width: 100px;
+}
+.footer ul{
+  height: 30px;
+}
+.footer ul li{
+  padding-top: 20px;
+}
+
+.footer ul li:hover{
+  border: solid 1px white;
+}
+
+/* h1{
+} */
+.footer p::after{
+  color: red; 
+  content: "Anandhu";
+}
+.footer p::before{
+  content: "Made";
+}
+.footer p::first-letter{
+  color: yellow;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: transparent !important;
+    border: none !important;
+  }
+}
+body{
+  background-color: black;
+}
+
+@media  (max-width:768px){
+  .grid img{
+    height: 200px;
+    
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
+  header::after{
+    margin-top: 100px;
+    padding-left: 35%;
+    content: 'Moviehub';
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+ .popular{
+  margin-top: -100px;
+ }
+ .grids img{
+  height: 100px;
+filter: drop-shadow(10px red);
+ }
+ .grids{
+  height: 200px;
+  padding-left: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust the minimum width and the fraction as needed */
+        grid-gap: 10px; 
+ }
+  
+}

@@ -1,0 +1,146 @@
+ .movie__poster{
+    height: 500px;
+    padding-left: 200px;
+    margin-top: -15%;
+    border-radius: 10px;
+    width: 500px;
+}
+.movie__intro img{
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+
+.movie__detailRightTop{
+    
+    margin-top: -32%;
+    padding-left: 35%;
+}
+.movie__detailRightBottom{
+    padding-left: 36%;
+    margin-top: 100px;
+}
+.movie__links{
+    margin-top: 100px;
+    padding-left: 40%;
+}
+.movie__name{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.synopsisText{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.movie__productionComapany{
+    padding-left: 10%;
+    
+}
+.movie__production{
+    margin-left: 10%;
+    padding: 30px 0px;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    
+}
+
+.productionCompanyImage img{
+    height: 100px;
+    
+    
+}
+.productionCompanyImage span{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.movie__heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.movie__heading.second_heading{
+    text-align: start;
+    padding-left: 10%;
+}
+@media only screen and (max-width: 768px) {
+    .movie__poster {
+        width: 100%;
+        padding: 0;
+        height: 300px;
+        width: 200px;
+        margin-top: -200px;
+    }
+    .movie__name{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .movie__intro img {
+        padding: 0;
+    }
+    .movie__detailRightTop{
+        font-size: 1rem;
+        margin-top: -320px;
+        padding-left: 55%;
+
+    }
+    .movie__detailRightBottom{
+        margin-top: 38%;
+    }
+    .movie__production{
+        padding: 30px 0px;
+    }
+
+    
+    .movie__links,
+    .movie__heading.second_heading {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+    .movie__poster {
+        width: 100%;
+        height: 400px; 
+        width: 400px; 
+        margin-top: -150px; 
+    }
+
+    .movie__name {
+        font-weight: 600;
+        font-size: 1.5rem; 
+    }
+
+    .movie__intro img {
+        padding: 0;
+    }
+
+    .movie__detailRightTop {
+        font-size: 1.2rem;  
+        margin-top: -280px;  
+        padding-left: 50%;  
+    }
+    .movie__production{
+        padding: 100px 0px;
+
+    }
+
+    .movie__detailRightBottom {
+        margin-top: 20%; 
+    }
+  .movie__heading.second_heading{
+    margin-top: 100px;
+    padding-left: 20%;
+
+  }
+
+    .movie__links,
+    
+    .movie__heading.second_heading {
+        padding: 0;
+        margin: 0;
+    }
+}

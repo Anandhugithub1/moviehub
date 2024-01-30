@@ -1,0 +1,19 @@
+.banner img{
+filter: brightness(50%);
+filter: drop-shadow(5px 5px 10px #000000);
+filter: contrast(10%);
+filter: saturate(120%);
+filter: opacity(0.8);
+}
+
+@media (max-width:768px){
+    .banner img{
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    .banner{
+        margin-top: 20px;
+        padding: 0;
+    }
+}
